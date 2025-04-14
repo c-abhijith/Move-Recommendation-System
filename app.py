@@ -23,7 +23,7 @@ def fetch_movie_details(movie_id):
         return "https://via.placeholder.com/200x300?text=No+Image", "N/A", "No overview available"
 
 # Load and merge similarity parts
-def load_similarity_parts(num_parts=6):
+def load_similarity_parts(num_parts=10):
     all_parts = []
     for i in range(1, num_parts + 1):
         try:
